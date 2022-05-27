@@ -148,6 +148,7 @@ public class Home extends javax.swing.JFrame {
 
     private void jMenu5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenu5ActionPerformed
         // TODO add your handling code here:
+	//donor page open
         new AddNewdoner().setVisible(true);
 
     }//GEN-LAST:event_jMenu5ActionPerformed

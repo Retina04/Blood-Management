@@ -175,7 +175,7 @@ public class AddNewdoner extends javax.swing.JFrame {
         String City=jTextField4.getText();//`donorId`,
         String donorId = null;
         
-        
+        //insert donor information to database
         try{
             Connection con=ConnectionProvider.getCon();
             Statement st=con.createStatement();
@@ -196,7 +196,7 @@ public class AddNewdoner extends javax.swing.JFrame {
         }
         catch(Exception e)
         {
-            System.out.println("db connection failed");
+            System.out.println("database connection failed");
           JOptionPane.showMessageDialog(null, e);
             
         }
